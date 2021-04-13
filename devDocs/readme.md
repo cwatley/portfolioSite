@@ -30,10 +30,10 @@ Complete by EOD Monday
         * #f1f1f1 Anti-Flash White - overall background
         * #d6464f English Vermillion - primary container
         * #000000 Black - text
-    3. Photos from portable harddrive
-    4. Photos from Unsplash
+    3. ~~Photos from portable harddrive~~
+    4. ~~Photos from Unsplash~~
         * Post Box - Photo by ` <a href="https://unsplash.com/@kazuend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">kazuend</a> on <a href="https://unsplash.com/s/photos/mailbox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> `
-    5. Crop photos
+    5. ~~Crop photos~~
 3. ~~Set up Git~~
 4. Build the Homepage
 5. Build the Contact Page
