@@ -18,8 +18,8 @@ Complete by EOD Monday
 
 ## Steps
 
-1. Wireframe
-2. Gather assets
+1. ~~Wireframe~~
+2. ~~Gather assets~~
     1. ~~Font families~~
         * Short Stack - Title
         * Donegal One - postcard content
@@ -33,7 +33,12 @@ Complete by EOD Monday
     3. ~~Photos from portable harddrive~~
     4. ~~Photos from Unsplash~~
         * Post Box - Photo by ` <a href="https://unsplash.com/@kazuend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">kazuend</a> on <a href="https://unsplash.com/s/photos/mailbox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> `
-    5. ~~Crop photos~~
+    5. Professional link photos
+        * PMI PMP - `<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="55004d7b-64f8-4db0-a755-efe2e4932859" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>`
+        * LinkedIn - logo in assets, link is `https://www.linkedin.com/in/creight/`
+        * GitHub - logo in assets, link is `https://github.com/cwatley`
+        * Codecademy - logo in assets, link is `https://www.codecademy.com/profiles/creight`
+    6. ~~Crop photos~~
 3. ~~Set up Git~~
 4. Build the Homepage
 5. Build the Contact Page
