@@ -1,5 +1,17 @@
 body {
+    background-color: #f1f1f1;
+    font-family: 'Donegal One', serif
+}
 
+#backgroundborder img {
+    width: 100%;
+}
+
+#contentcontainer {
+    background-color: #388fe2;
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 40px;
 }
 
 header {
@@ -28,4 +40,12 @@ nav {
 
 .pcoverlay {
 
+}
+
+.projectpostcards {
+    font-family: 'Short Stack', cursive;
+}
+
+.projectlink {
+    font-family: 'News Cycle', sans-serif;
 }

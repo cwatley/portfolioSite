@@ -33,15 +33,15 @@ Complete by EOD Monday
     3. ~~Photos from portable harddrive~~
     4. ~~Photos from Unsplash~~
         * Post Box - Photo by ` <a href="https://unsplash.com/@kazuend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">kazuend</a> on <a href="https://unsplash.com/s/photos/mailbox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> `
-    5. Professional link photos
+    5. ~~Professional link photos~~
         * PMI PMP - Logo in assets, link is `https://www.credly.com/badges/55004d7b-64f8-4db0-a755-efe2e4932859/public_url`
         * LinkedIn - logo in assets, link is `https://www.linkedin.com/in/creight/`
         * GitHub - logo in assets, link is `https://github.com/cwatley`
         * Codecademy - logo in assets, link is `https://www.codecademy.com/profiles/creight`
     6. ~~Crop photos~~
 3. ~~Set up Git~~
-4. Build the Homepage
-5. Build the Contact Page
+4. ~~Build the Homepage~~
+5. ~~Build the Contact Page~~
 6. Style content
 7. Add JS
 8. Make Styiling responsive
