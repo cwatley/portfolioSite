@@ -1,21 +1,62 @@
 body {
     background-color: #f1f1f1;
-    font-family: 'Donegal One', serif
+    font-family: 'Donegal One', serif;
+    display: flex;
+    justify-content: center;
+}
+
+#gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 1fr) 1fr;
+    grid-template-rows: 1fr repeat(10, 2fr) 1fr;
+    min-height: 0;
+    min-width: 0;
+}
+
+#backgroundborder {
+    grid-column: 1 / 6;
+    grid-row: 1 / 13;
+    flex: 1;
 }
 
 #backgroundborder img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: flex;
 }
 
 #contentcontainer {
     background-color: #388fe2;
-    max-width: 1200px;
-    margin:auto;
-    margin-top: 40px;
+    min-width: 600px;
+    grid-column: 2 / 5;
+    grid-row: 1 / 13;
+    z-index: -1;
 }
 
 header {
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
+    display: grid;
+}
 
+#headshot {
+    grid-column: 5 / 5;
+    grid-row: 2 / 2;
+    max-width: 150px;
+    display: flex;
+}
+
+header .pcmainimg {
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
+    max-width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+img {
+    display: none;
 }
 
 h1 {
