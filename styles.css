@@ -41,19 +41,10 @@ header {
     grid-row: 2 / 5;
     display: grid;
     max-width:800px;
+    min-width:800px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-self: center;
-}
-
-#headshot {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    max-width: 150px;
-    display: flex;
-    z-index: 3;
-    justify-self: right;
-    opacity: .8;
 }
 
 header .pcmainimg {
@@ -88,8 +79,11 @@ header h1 {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     z-index: 5;
-    margin: .5rem;
-    font-size: 1.75rem;
+    margin: .33rem 8.75rem 8rem .33ugkrem;
+    font-size: 2rem;
+    background-color: #f1f1f1;
+    border: .25rem solid black;
+    padding-left: .25rem;
 }
 
 img {
@@ -99,7 +93,31 @@ img {
 
 
 nav {
-  /*all nav items the same size/font*/
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    z-index: 5;
+    margin: .5rem 3rem .5rem -80px;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+#projects {
+    background-color: #f1f1f1;
+    border: .25rem solid black;
+    padding-left: .25rem;
+}
+
+#contacts {
+    background-color: #f1f1f1;
+    border: .25rem solid black;
+    padding-left: .25rem;
+    margin-top: -.25rem;
+}
+
+#blank {
+    background-color: #f1f1f1;
+    border: .25rem solid black;
+    margin-top: -.25rem;
 }
 
 .postcard {
