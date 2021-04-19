@@ -85,10 +85,12 @@ header h1 {
     background-color: #f1f1f1;
     border: .25rem solid #0e009f;
     padding-left: .25rem;
+    opacity: .6;
 }
 
 img {
     max-width: 800px;
+    display:none;
 }
 
 
@@ -100,6 +102,8 @@ nav {
     margin: .5rem 3rem .5rem -5rem;
     font-size: 1.75rem;
     line-height: 2.5rem;
+    opacity: .6;
+    font-family: 'News Cycle', sans-serif;
 }
 
 #projects {
@@ -126,9 +130,83 @@ nav {
     grid-column: 2 / 4;
     grid-row: 5 / 7;
     z-index: 5;
-    margin: .5rem 3rem .5rem .5rem;
+    margin: -2rem 3rem .5rem 3rem;
     font-size: 1.75rem;
     line-height: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 28rem;
+    display: grid;
+}
+
+#portfolio1 > .pcmainimg {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+}
+
+#portfolio1 > .pcbackground {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+    z-index: 3;
+    opacity: .3;
+}
+
+#portfolio1 > .pcoverlay {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+    z-index: 3;
+    opacity: .3;
+}
+
+#portfolio1 > .projecttitle {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 0rem 1rem 10rem 0rem;
+    opacity: .85;
+    line-height: 1rem;
+    font-family: 'Donegal One', serif;
+}
+
+#portfolio1 > .projectdesc {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 4rem 1rem 8rem 1rem;
+    opacity: .85;
+    line-height: 1rem;
+}
+#portfolio1 > .projectlink {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 6rem 2rem 0rem 2rem;
+    opacity: .85;
+    line-height: 1rem;
 }
 
 #portfolio2 {
@@ -136,9 +214,83 @@ nav {
     grid-column: 2 / 4;
     grid-row: 7 / 9;
     z-index: 5;
-    margin: -5rem 3rem .5rem .5rem;
+    margin: -2rem 3rem .5rem 3rem;
     font-size: 1.75rem;
     line-height: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 28rem;
+    display: grid;
+}
+
+#portfolio2 > .pcmainimg {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+}
+
+#portfolio2 > .pcbackground {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+    z-index: 3;
+    opacity: .3;
+}
+
+#portfolio2 > .pcoverlay {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+    z-index: 3;
+    opacity: .3;
+}
+
+#portfolio2 > .projecttitle {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 0rem 1rem 10rem 0rem;
+    opacity: .85;
+    line-height: 1rem;
+    font-family: 'Donegal One', serif;
+}
+
+#portfolio2 > .projectdesc {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 4rem 1rem 8rem 1rem;
+    opacity: .85;
+    line-height: 1rem;
+}
+#portfolio2 > .projectlink {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 6rem 2rem 0rem 2rem;
+    opacity: .85;
+    line-height: 1rem;
 }
 
 #portfolio3 {
@@ -146,27 +298,83 @@ nav {
     grid-column: 2 / 4;
     grid-row: 9 / 11;
     z-index: 5;
-    margin: -10rem 3rem .5rem .5rem;
+    margin: -2rem 3rem .5rem 3rem;
     font-size: 1.75rem;
     line-height: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 28rem;
+    display: grid;
 }
 
-
-
-.postcard {
-
+#portfolio3 > .pcmainimg {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
 }
 
-.pcmainimg {
-
+#portfolio3 > .pcbackground {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+    z-index: 3;
+    opacity: .3;
 }
 
-.pcbackground {
-
+#portfolio3 > .pcoverlay {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    object-fit: cover;
+    justify-self: center;
+    max-width: 28rem;
+    z-index: 3;
+    opacity: .3;
 }
 
-.pcoverlay {
+#portfolio3 > .projecttitle {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 0rem 1rem 10rem 0rem;
+    opacity: .85;
+    line-height: 1rem;
+    font-family: 'Donegal One', serif;
+}
 
+#portfolio3 > .projectdesc {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 4rem 1rem 8rem 1rem;
+    opacity: .85;
+    line-height: 1rem;
+}
+#portfolio3 > .projectlink {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border: .15rem solid #0e009f;
+    padding-left: .25rem;
+    padding-top: .25rem;
+    margin: 6rem 2rem 0rem 2rem;
+    opacity: .85;
+    line-height: 1rem;
 }
 
 .projectpostcards {
@@ -176,3 +384,17 @@ nav {
 .projectlink {
     font-family: 'News Cycle', sans-serif;
 }
+
+.contactbar {
+    grid-column: 4 / 5;
+    grid-row: 5 / 9;
+    z-index: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6 1fr);
+    max-width: 14rem;
+    display: grid;
+    background-color: #f1f1f1;
+    margin: -2rem 3rem .5rem 0rem;
+    border: .25rem dashed #d6464f;
+}
+
